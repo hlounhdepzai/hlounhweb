@@ -2,11 +2,10 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Phim Conan &amp; Doraemon</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Hover scale ảnh */
     .movie-card img {
       transition: transform 0.3s;
     }
@@ -19,48 +18,36 @@
   
   <!-- Header -->
   <header class="bg-gray-800 py-4 text-center">
-    <h1 class="text-4xl font-extrabold leading-tight px-4">
-      Co op ≠ SMP
-    </h1>
+    <h1 class="text-4xl font-extrabold px-4">Co op ≠ SMP</h1>
     <p class="mt-1 text-lg text-gray-300 px-4">
       “Trái tim người con gái mình yêu, ai có thể suy luận chính xác được cơ chứ?”
     </p>
   </header>
 
   <!-- Main gallery -->
-  <main class="flex-grow container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
+  <main class="flex-grow container mx-auto px-4 py-8 grid grid-cols-2 sm:grid-cols-2 gap-8 justify-center">
     
     <!-- Movie Conan -->
-    <figure class="movie-card relative bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mx-auto w-48">
-      <a href="trang1.html" class="block">
-        <!-- Ép tỉ lệ 16:9 -->
-        <div class="aspect-square">
-          <img
-            src="https://i.pinimg.com/736x/86/97/08/8697085e4dca6af5f8f6d517b31b8eab.jpg"
-            alt="Movie Conan"
-            class="w-full h-full object-cover"
-          >
-        </div>
-      </a>
-      <figcaption class="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-80 p-2 text-center rounded-b-xl">
-        <h2 class="text-xl font-semibold text-white">Movie Conan</h2>
+    <figure class="movie-card relative w-48 aspect-square bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <img
+        src="https://i.pinimg.com/736x/86/97/08/8697085e4dca6af5f8f6d517b31b8eab.jpg"
+        alt="Movie Conan"
+        class="w-full h-full object-cover"
+      >
+      <figcaption class="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-80 p-2 text-center">
+        <h2 class="text-lg font-semibold text-white">Movie Conan</h2>
       </figcaption>
     </figure>
 
     <!-- Movie Doraemon -->
-    <figure class="movie-card relative bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mx-auto w-48">
-      <a href="trang2.html" class="block">
-        <!-- Ép tỉ lệ 16:9 -->
-       <div class="aspect-square">
-          <img
-            src="https://i.pinimg.com/736x/13/a7/a4/13a7a42cba9ebc6ec880e03826fe53a8.jpg"
-            alt="Movie Doraemon"
-            class="w-full h-full object-cover"
-          >
-        </div>
-      </a>
-      <figcaption class="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-80 p-2 text-center rounded-b-xl">
-        <h2 class="text-xl font-semibold text-white">Movie Doraemon</h2>
+    <figure class="movie-card relative w-48 aspect-square bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <img
+        src="https://i.pinimg.com/736x/13/a7/a4/13a7a42cba9ebc6ec880e03826fe53a8.jpg"
+        alt="Movie Doraemon"
+        class="w-full h-full object-cover"
+      >
+      <figcaption class="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-80 p-2 text-center">
+        <h2 class="text-lg font-semibold text-white">Movie Doraemon</h2>
       </figcaption>
     </figure>
 
@@ -70,6 +57,5 @@
   <footer class="bg-gray-700 py-2 text-center">
     <p class="text-gray-400 text-sm">&copy; 2025 Phim Conan &amp; Doraemon</p>
   </footer>
-
 </body>
 </html>
