@@ -1,57 +1,67 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phim Conan & Doraemon</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .movie-card img {
-            transition: transform 0.3s;
-        }
-        .movie-card:hover img {
-            transform: scale(1.05);
-        }
-        .movie-card {
-            width: 300px;
-            height: 300px;
-            border-radius: 16px;
-            overflow: hidden;
-        }
-        .movie-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phim Conan &amp; Doraemon</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Hover scale ảnh */
+    .movie-card img {
+      transition: transform 0.3s;
+    }
+    .movie-card:hover img {
+      transform: scale(1.05);
+    }
+  </style>
 </head>
-<body class="bg-gray-900 text-white">
-    <header class="bg-gray-800 p-4 text-center">
-        <h1 class="text-3xl font-bold">“Trái tim người con gái mình yêu, ai có thể suy luận chính xác được cơ chứ?”</h1>
-        <p class="mt-2">Xem phim Conan & Doraemon chất lượng cao         -👑Dev:hlounh </p>
-    </header>
+<body class="bg-gray-900 text-white flex flex-col min-h-screen">
+  
+  <!-- Header -->
+  <header class="bg-gray-800 py-6 text-center">
+    <h1 class="text-4xl font-extrabold leading-tight px-4">
+      “Trái tim người con gái mình yêu, ai có thể suy luận chính xác được cơ chứ?”
+    </h1>
+    <p class="mt-2 text-lg text-gray-300">
+      Xem phim Conan &amp; Doraemon chất lượng cao — <span class="text-yellow-400 font-semibold">Dev: hlounh</span>
+    </p>
+  </header>
 
-    <main class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 gap-6 justify-center">
-        <a href="trang1.html" class="movie-card block">
-            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg h-full">
-                <img src="https://i.pinimg.com/1200x/6d/3c/e3/6d3ce33025fefbe06486b8d53b6e7ea2.jpg" alt="Conan" class="w-full h-full object-cover">
-                <div class="p-4 text-center">
-                    <h2 class="text-xl font-semibold">Movie Conan</h2>
-                </div>
-            </div>
-        </a>
-        <a href="trang2.html" class="movie-card block">
-            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg h-full">
-                <img src="https://i.pinimg.com/736x/f8/85/b4/f885b48cadfd00a6967e73b1b75860c3.jpg" alt="Doraemon" class="w-full h-full object-cover">
-                <div class="p-4 text-center">
-                    <h2 class="text-xl font-semibold">Movie Doraemon</h2>
-                </div>
-            </div>
-        </a>
-    </main>
+  <!-- Main gallery -->
+  <main class="flex-grow container mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 gap-10">
+    <!-- Movie Conan -->
+    <figure class="movie-card bg-gray-800 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+      <a href="trang1.html" class="block flex-grow">
+        <img
+          src="https://i.pinimg.com/1200x/6d/3c/e3/6d3ce33025fefbe06486b8d53b6e7ea2.jpg"
+          alt="Movie Conan"
+          class="w-full h-64 object-cover"
+        >
+      </a>
+      <figcaption class="p-4 text-center">
+        <h2 class="text-2xl font-semibold">Movie Conan</h2>
+      </figcaption>
+    </figure>
 
-    <footer class="bg-gray-800 p-4 text-center mt-6">
-        <p>&copy; 2025 Phim Conan & Doraemon</p>
-    </footer>
+    <!-- Movie Doraemon -->
+    <figure class="movie-card bg-gray-800 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+      <a href="trang2.html" class="block flex-grow">
+        <img
+          src="https://i.pinimg.com/736x/f8/85/b4/f885b48cadfd00a6967e73b1b75860c3.jpg"
+          alt="Movie Doraemon"
+          class="w-full h-64 object-cover"
+        >
+      </a>
+      <figcaption class="p-4 text-center">
+        <h2 class="text-2xl font-semibold">Movie Doraemon</h2>
+      </figcaption>
+    </figure>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-4 text-center">
+    <p class="text-gray-400">&copy; 2025 Phim Conan &amp; Doraemon</p>
+  </footer>
+
 </body>
 </html>
