@@ -20,7 +20,7 @@
   <!-- Header -->
   <header class="bg-gray-800 py-3 text-center">
     <h1 class="text-4xl font-extrabold leading-tight px-4">
-      Co op ≠ SMP <span class="text-yellow-400 font-semibold"></span>
+      Co op ≠ SMP
     </h1>
     <p class="mt-2 text-lg text-gray-300">
       “Trái tim người con gái mình yêu, ai có thể suy luận chính xác được cơ chứ?”
@@ -29,37 +29,45 @@
 
   <!-- Main gallery -->
   <main class="flex-grow container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
-  <!-- Movie Conan -->
-  <figure class="movie-card relative bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-    <a href="trang1.html" class="block">
-      <img
-        src="https://i.pinimg.com/1200x/6d/3c/e3/6d3ce33025fefbe06486b8d53b6e7ea2.jpg"
-        alt="Movie Conan"
-        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
-      >
-    </a>
-    <figcaption class="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-80 p-2 text-center rounded-b-xl">
-      <h2 class="text-xl font-semibold text-white">Movie Conan</h2>
-    </figcaption>
-  </figure>
+    <!-- Movie Conan -->
+    <figure class="movie-card relative bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <a href="trang1.html" class="block">
+        <!-- Ép tỉ lệ 16:9 để ảnh phủ kín -->
+        <div class="aspect-video">
+          <img
+            src="https://i.pinimg.com/1200x/6d/3c/e3/6d3ce33025fefbe06486b8d53b6e7ea2.jpg"
+            alt="Movie Conan"
+            class="w-full h-full object-cover"
+          >
+        </div>
+      </a>
+      <figcaption class="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-80 p-2 text-center rounded-b-xl">
+        <h2 class="text-xl font-semibold text-white">Movie Conan</h2>
+      </figcaption>
+    </figure>
 
-  <!-- Movie Doraemon -->
-  <figure class="movie-card relative bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-    <a href="trang2.html" class="block">
-      <img
-        src="https://i.pinimg.com/1200x/8c/7f/20/8c7f20c9393a510bd68c8ea62590a2e8.jpg"
-        alt="Movie Doraemon"
-        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
-      >
-    </a>
-    <figcaption class="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-80 p-2 text-center rounded-b-xl">
-      <h2 class="text-xl font-semibold text-white">Movie Doraemon</h2>
-    </figcaption>
-  </figure>
-</main>
+    <!-- Movie Doraemon -->
+    <figure class="movie-card relative bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <a href="trang2.html" class="block">
+        <!-- Ép tỉ lệ 16:9 để ảnh phủ kín -->
+        <div class="aspect-video">
+          <img
+            src="https://i.pinimg.com/1200x/8c/7f/20/8c7f20c9393a510bd68c8ea62590a2e8.jpg"
+            alt="Movie Doraemon"
+            class="w-full h-full object-cover"
+          >
+        </div>
+      </a>
+      <figcaption class="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-80 p-2 text-center rounded-b-xl">
+        <h2 class="text-xl font-semibold text-white">Movie Doraemon</h2>
+      </figcaption>
+    </figure>
+  </main>
+
   <!-- Footer -->
   <footer class="bg-gray-700 py-2 text-center">
-    <p class="text-gray-400 text-sm">&copy; 2025 Phim Conan &amp; Doraemon </p>
+    <p class="text-gray-400 text-sm">&copy; 2025 Phim Conan &amp; Doraemon</p>
   </footer>
+
 </body>
 </html>
