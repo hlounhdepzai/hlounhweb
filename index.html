@@ -12,6 +12,17 @@
         .movie-card:hover img {
             transform: scale(1.05);
         }
+        .movie-card {
+            width: 300px;
+            height: 300px;
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        .movie-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body class="bg-gray-900 text-white">
@@ -20,18 +31,18 @@
         <p class="mt-2">Xem phim Conan & Doraemon chất lượng cao         -👑Dev:hlounh </p>
     </header>
 
-    <main class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+    <main class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 gap-6 justify-center">
         <a href="trang1.html" class="movie-card block">
-            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-                <img src="https://i.pinimg.com/1200x/6d/3c/e3/6d3ce33025fefbe06486b8d53b6e7ea2.jpg" alt="Conan" class="w-full h-64 object-cover">
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg h-full">
+                <img src="https://i.pinimg.com/1200x/6d/3c/e3/6d3ce33025fefbe06486b8d53b6e7ea2.jpg" alt="Conan" class="w-full h-full object-cover">
                 <div class="p-4 text-center">
                     <h2 class="text-xl font-semibold">Movie Conan</h2>
                 </div>
             </div>
         </a>
         <a href="trang2.html" class="movie-card block">
-            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-                <img src="https://i.pinimg.com/736x/f8/85/b4/f885b48cadfd00a6967e73b1b75860c3.jpg" alt="Doraemon" class="w-full h-64 object-cover">
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg h-full">
+                <img src="https://i.pinimg.com/736x/f8/85/b4/f885b48cadfd00a6967e73b1b75860c3.jpg" alt="Doraemon" class="w-full h-full object-cover">
                 <div class="p-4 text-center">
                     <h2 class="text-xl font-semibold">Movie Doraemon</h2>
                 </div>
