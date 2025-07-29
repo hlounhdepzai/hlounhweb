@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phim Conan & Doraemon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .movie-card img {
+            transition: transform 0.3s;
+        }
+        .movie-card:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 p-4 text-center">
+        <h1 class="text-3xl font-bold">Có idea bất ngờ</h1>
+        <p class="mt-2">Dev by hlounh - Xem phim Conan & Doraemon chất lượng cao</p>
+    </header>
+
+    <main class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <a href="trang1.html" class="movie-card block">
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                <img src="https://via.placeholder.com/300x450?text=Conan" alt="Conan" class="w-full h-64 object-cover">
+                <div class="p-4 text-center">
+                    <h2 class="text-xl font-semibold">Movie Conan</h2>
+                </div>
+            </div>
+        </a>
+        <a href="trang2.html" class="movie-card block">
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                <img src="https://via.placeholder.com/300x450?text=Doraemon" alt="Doraemon" class="w-full h-64 object-cover">
+                <div class="p-4 text-center">
+                    <h2 class="text-xl font-semibold">Movie Doraemon</h2>
+                </div>
+            </div>
+        </a>
+    </main>
+
+    <footer class="bg-gray-800 p-4 text-center mt-6">
+        <p>&copy; 2025 Phim Conan & Doraemon</p>
+    </footer>
+</body>
+</html>
