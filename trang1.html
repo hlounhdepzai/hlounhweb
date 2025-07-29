@@ -1,266 +1,237 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phim Conan</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            background-color: #1a202c;
-            color: #e2e8f0;
-        }
-        .movie-card {
-            background: #2d3748;
-            border-radius: 8px;
-            overflow: hidden;
-            transition: transform 0.2s;
-        }
-        .movie-card:hover {
-            transform: scale(1.05);
-        }
-        .movie-card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phim Conan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #1a202c;
+      color: #e2e8f0;
+    }
+    .movie-card {
+      background: #2d3748;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .movie-card:hover {
+      transform: scale(1.05);
+    }
+    .movie-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body class="p-4">
-    <header class="bg-gray-800 p-4 text-center mb-6">
-        <h1 class="text-3xl font-bold">Phim Conan</h1>
-        <p class="mt-2">Khám phá 28 bộ phim Conan đỉnh cao (1997–2025)</p>
-    </header>
+  <header class="bg-gray-800 p-4 text-center mb-6">
+    <h1 class="text-3xl font-bold">Phim Conan</h1>
+    <p class="mt-2">Khám phá 24 bộ phim Conan (1997–2024)</p>
+  </header>
 
-    <main class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+1" alt="Conan: Tòa nhà thời khóa động" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Tòa nhà thời khóa động</h2>
-                <p class="text-sm text-gray-400">Năm: 1997</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+2" alt="Conan: Mục tiêu thứ 14" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Mục tiêu thứ 14</h2>
-                <p class="text-sm text-gray-400">Năm: 1998</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+3" alt="Conan: Phù thủy cuối thế kỷ" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Phù thủy cuối thế kỷ</h2>
-                <p class="text-sm text-gray-400">Năm: 1999</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+4" alt="Conan: Kẻ ám sát trong đôi mắt" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Kẻ ám sát trong đôi mắt</h2>
-                <p class="text-sm text-gray-400">Năm: 2000</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+5" alt="Conan: Đếm ngược đến thiên đường" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Đếm ngược đến thiên đường</h2>
-                <p class="text-sm text-gray-400">Năm: 2001</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+6" alt="Conan: Bóng ma phố Baker" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Bóng ma phố Baker</h2>
-                <p class="text-sm text-gray-400">Năm: 2002</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+7" alt="Conan: Giao lộ mê cung" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Giao lộ mê cung</h2>
-                <p class="text-sm text-gray-400">Năm: 2003</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+8" alt="Conan: Nhà ảo thuật cánh bạc" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Nhà ảo thuật cánh bạc</h2>
-                <p class="text-sm text-gray-400">Năm: 2004</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+9" alt="Conan: Chiến lược dưới đường chân trời" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Chiến lược dưới đường chân trời</h2>
-                <p class="text-sm text-gray-400">Năm: 2005</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+10" alt="Conan: Khúc nhạc truy điệu" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Khúc nhạc truy điệu</h2>
-                <p class="text-sm text-gray-400">Năm: 2006</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+11" alt="Conan: Quan tài xanh thẳm" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Quan tài xanh thẳm</h2>
-                <p class="text-sm text-gray-400">Năm: 2007</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+12" alt="Conan: Giai điệu rùng mình" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Giai điệu rùng mình</h2>
-                <p class="text-sm text-gray-400">Năm: 2008</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+13" alt="Conan: Kẻ truy đuổi đen tối" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Kẻ truy đuổi đen tối</h2>
-                <p class="text-sm text-gray-400">Năm: 2009</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+14" alt="Conan: Tàu mất tích trên bầu trời" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Tàu mất tích trên bầu trời</h2>
-                <p class="text-sm text-gray-400">Năm: 2010</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+15" alt="Conan: 15 phút im lặng" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: 15 phút im lặng</h2>
-                <p class="text-sm text-gray-400">Năm: 2011</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+16" alt="Conan: Cầu thủ thứ 11" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Cầu thủ thứ 11</h2>
-                <p class="text-sm text-gray-400">Năm: 2012</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+17" alt="Conan: Thám tử thiên hải" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Thám tử thiên hải</h2>
-                <p class="text-sm text-gray-400">Năm: 2013</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+18" alt="Conan: Xạ thủ khác chiều không gian" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Xạ thủ khác chiều không gian</h2>
-                <p class="text-sm text-gray-400">Năm: 2014</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+19" alt="Conan: Hoa hướng dương rực lửa" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Hoa hướng dương rực lửa</h2>
-                <p class="text-sm text-gray-400">Năm: 2015</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+20" alt="Conan: Ác mộng tối thượng" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Ác mộng tối thượng</h2>
-                <p class="text-sm text-gray-400">Năm: 2016</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+21" alt="Conan: Bức thư tình sắc đỏ" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Bức thư tình sắc đỏ</h2>
-                <p class="text-sm text-gray-400">Năm: 2017</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+22" alt="Conan: Hành pháp Zero" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Hành pháp Zero</h2>
-                <p class="text-sm text-gray-400">Năm: 2018</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+23" alt="Conan: Nắm đấm Sapphire xanh" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Nắm đấm Sapphire xanh</h2>
-                <p class="text-sm text-gray-400">Năm: 2019</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+24" alt="Conan: Viên đạn đỏ thẫm" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Viên đạn đỏ thẫm</h2>
-                <p class="text-sm text-gray-400">Năm: 2021</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+25" alt="Conan: Cô dâu Halloween" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Cô dâu Halloween</h2>
-                <p class="text-sm text-gray-400">Năm: 2022</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+26" alt="Conan: Tàu ngầm sắt đen" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Tàu ngầm sắt đen</h2>
-                <p class="text-sm text-gray-400">Năm: 2023</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+27" alt="Conan: Ngũ giác triệu đô" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Ngũ giác triệu đô</h2>
-                <p class="text-sm text-gray-400">Năm: 2024</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-        <a href="#" class="movie-card block">
-            <img src="https://via.placeholder.com/150x200?text=Conan+28" alt="Conan: Ảnh hưởng một mắt" class="w-full">
-            <div class="p-2 text-center">
-                <h2 class="text-lg font-semibold">Conan: Ảnh hưởng một mắt</h2>
-                <p class="text-sm text-gray-400">Năm: 2025</p>
-                <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Xem ngay</button>
-            </div>
-        </a>
-    </main>
-
-    <footer class="bg-gray-800 p-4 text-center mt-6">
-        <p>&copy; 2025 Phim Conan</p>
-    </footer>
+  <main class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <a href="https://1024terabox.com/s/1p58R3ADtlptsw3ACZY7BHA" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/d9/2f/32/d92f3267b029a642788b0cd929be7c2e.jpg" alt="Chiếc đồng hồ định mệnh" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 1: Quả bom chọc trời </h2>
+        <p class="text-sm text-gray-400">Năm: 1997</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-02-muc-tieu-thu-14.nAr95EdG?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/8f/a3/a3/8fa3a3bf3981a92151303485bfe07269.jpg" alt="Kẻ phản diện từ bóng tối" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 2: Mục Tiêu Thứ 14</h2>
+        <p class="text-sm text-gray-400">Năm: 1998</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-01-qua-bom-choc-troi.yENZ1gzw?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/01/65/33/016533d9354b484e3bd864fad0cdea8b.jpg" alt="Vụ án mạng ở học viện ngầm" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 3: Ảo Thuật Gia Cuối Cùng Của Thế kỉ</h2>
+        <p class="text-sm text-gray-400">Năm: 1999</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-04-thu-pham-trong-doi-mat.ZhGbjZh3?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/57/b7/83/57b783b37db2d1717863bcec1a3ec384.jpg" alt="Điệp viên dưới bầu trời" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie : Thủ phạm trong đôi mắt</h2>
+        <p class="text-sm text-gray-400">Năm: 2000</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-05-nhung-giay-cuoi-cung-toi-thien-duong.r7OpTM9w?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/aa/f9/70/aaf970c90207b6ec1bc922774fa4217d.jpg" alt="Đếm ngược đến thiên đường" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 5: Những Giây Phút Cuối Cùng Tới Thiên Đường</h2>
+        <p class="text-sm text-gray-400">Năm: 2001</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-06-bong-ma-duong-baker.JzGLHls6?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/84/ec/59/84ec594e6c094c8cc3821e923fdb2ca0.jpg" alt="Bức thư từ cõi chết" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Conan Movie 6: Bóng Ma Đường Baker</h2>
+        <p class="text-sm text-gray-400">Năm: 2002</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-07-me-cung-trong-thanh-pho-co.hq7zS3hg?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/18/28/39/182839569514bf1c583c7eb5d6dc53d9.jpg" alt="Vụ án mạng trên tàu ngầm" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 7: Mê Cung Trong Thành Phố Cổ</h2>
+        <p class="text-sm text-gray-400">Năm: 2003</p>
+      </div>
+    </a>
+    <a href="https://www.sieutamphim.org/2022/04/tham-tu-conan-movie-8-nha-ao-thuat-voi-doi-canh-bac-htv3-long-tieng.html" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/de/53/b1/de53b1632012fe14f1a4bd677caa0c8f.jpg" alt="Ma thuật dưới ánh trăng" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 8: Nhà ảo thuật với đôi cánh bạc</h2>
+        <p class="text-sm text-gray-400">Năm: 2004</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-09-am-muu-tren-bien.9lvqt8dM?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/85/c7/77/85c777a2f949d8dab60178c2f71868d0.jpg" alt="Chiến lược của thiên tài" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 9: Âm mưu trên biển</h2>
+        <p class="text-sm text-gray-400">Năm: 2005</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-10-le-cau-hon-cua-tham-tu.Erz04mVw?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/d6/bb/4a/d6bb4a6ecd831a9de9a8c1608fcbf5d4.jpg" alt="Bức thư nguyền rủa" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 10: Lễ cầu hồn của thám tử</h2>
+        <p class="text-sm text-gray-400">Năm: 2006</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-11-kho-bau-duoi-day-dai-duong.rf2D1Cfx?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/70/94/b2/7094b27069f616444158aeda881739fa.jpg" alt="Bí mật đảo rồng" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 11: Kho báu dưới đáy đại dương
+        </h2>
+        <p class="text-sm text-gray-400">Năm: 2007</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-12-tan-cung-cua-su-so-hai.qYtHcgNW?ver=" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/3e/91/5f/3e915f60a1595da32c1857604ad83cd6.jpg" alt="Máy bay giấy điêu tàn" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 12: Tận cùng của sự sợ hãi
+        </h2>
+        <p class="text-sm text-gray-400">Năm: 2008</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-13-truy-lung-to-chuc-ao-den.JlWn0upF?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/1200x/8b/aa/5f/8baa5f6e505bf6aca6fbe80cb4ba408a.jpg" alt="Vụ án mạng trên bầu trời" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 13: Truy lùng tổ chức Áo Đen</h2>
+        <p class="text-sm text-gray-400">Năm: 2009</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-14-con-tau-bien-mat-giua-troi-xanh.knczUM3s?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/c3/e8/22/c3e822541c1b32d9c5e9bd2bcd06b1f2.jpg" alt="Dư ảnh của độc nhãn" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 14: Con tàu biến mất giữa trời xanh</h2>
+        <p class="text-sm text-gray-400">Năm: 2010</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-15-15-phut-tinh-lang.DA7QeWIE?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/1200x/ff/d3/e6/ffd3e609d0feb558eb8850e23635ea69.jpg" alt="Trận chiến trên đỉnh núi" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 15: 15 phút tĩnh lặng</h2>
+        <p class="text-sm text-gray-400">Năm: 2011</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-16-tien-dao-thu-11.4HPp7Ygy?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/17/d6/ef/17d6ef248adeb7aabd0c018c1dbdc908.jpg" alt="Mười một chữ cái cuối cùng" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 16: Tiền đạo thứ 11</h2>
+        <p class="text-sm text-gray-400">Năm: 2012</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-17-con-mat-bi-an-ngoai-bien-xa.6nPvr72e?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/a3/5e/aa/a35eaa64fcd61a9cb6b529fa5a36c392.jpg" alt="Chiếc còng tay bạc" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 17:  Con mắt bí ẩn ngoài biển</h2>
+        <p class="text-sm text-gray-400">Năm: 2013</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-18-sat-thu-ban-tia-khong-tuong.rumsPIC8?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/a0/21/66/a021664d3bb8be0cde85319a472d16ec.jpg" alt="Kịch bản kinh dị" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 18: Sát thủ bắn tỉa không tưởngị</h2>
+        <p class="text-sm text-gray-400">Năm: 2014</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-19-hoa-huong-duong-ruc-lua.XWc5lFKn?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/1200x/52/22/c1/5222c1bad7d0fe97659e5cf246ab04ef.jpg" alt="Giếng ma" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Moive 19: Hoa hướng dương rực lửa</h2>
+        <p class="text-sm text-gray-400">Năm: 2015</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-20-con-ac-mong-den-toi.hyTQRYo4?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/5c/f2/11/5cf21119f53eb902f2f3643d78359534.jpg" alt="Hành trình đen tối" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 20: Cơn ác mộng đen tối</h2>
+        <p class="text-sm text-gray-400">Năm: 2016</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-21-ban-tinh-ca-mau-do-tham.cweatAWB?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/44/aa/b4/44aab49d0223302a73786d80a3f9fda4.jpg" alt="Hòn đảo bí ẩn" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 21: Bản tình ca màu đỏ thẫm</h2>
+        <p class="text-sm text-gray-400">Năm: 2017</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-22-ke-hanh-phap-zero.8a7Ie0zf?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/736x/65/dd/85/65dd856107733febdd62905c9cbe82ff.jpg" alt="Số 0" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 22: Kẻ hành pháp Zero
+        </h2>
+        <p class="text-sm text-gray-400">Năm: 2018</p>
+      </div>
+    </a>
+    <a href="https://www.bilibili.tv/vi/video/4796243487626752" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/1200x/ef/c8/63/efc86325369ae87addfdf49459f6cc6e.jpg" alt="Viên đạn đỏ thắm" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 23: Cú đấm Sapphire xanh
+        </h2>
+        <p class="text-sm text-gray-400">Năm: 2019</p>
+      </div>
+    </a>
+    <a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-24-vien-dan-do.2QFB9hRY?ver=2" target="_blank" class="movie-card block">
+      <img src="https://i.pinimg.com/1200x/20/c6/11/20c6117cbd73b736baa80c51217c7bea.jpg" alt="Ngôi sao xanh" class="w-full">
+      <div class="p-2 text-center">
+        <h2 class="text-lg font-semibold">Movie 24: Viên đạn đỏ </h2>
+        <p class="text-sm text-gray-400">Năm: 2021</p>
+    </div>
+</a>
+<a href="https://www.bilibili.tv/vi/video/4796262357014016?bstar_from=bstar-web.homepage.recommend.all" target="_blank" class="movie-card block">
+  <img src="https://i.pinimg.com/736x/b5/8a/0d/b58a0d5b0a6c11e92f207b4a6f2675ac.jpg" alt="Ngôi sao xanh" class="w-full">
+  <div class="p-2 text-center">
+    <h2 class="text-lg font-semibold">Movie 25 : Nàng dâu Halloween </h2>
+    <p class="text-sm text-gray-400">Năm: 2021</p>
+</div>
+</a>
+<a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-26-tau-ngam-sat-mau-den.FwZGL3x4?ver=2" target="_blank" class="movie-card block">
+  <img src="https://i.pinimg.com/1200x/ef/37/dd/ef37ddbefc54db19fec8484ab36b1f16.jpg" alt="Ngôi sao xanh" class="w-full">
+  <div class="p-2 text-center">
+    <h2 class="text-lg font-semibold">Movie 26 : Tàu ngầm sắt màu đen </h2>
+    <p class="text-sm text-gray-400">Năm: 2021</p>
+</div>
+</a>
+<a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-27-ngoi-sao-5-canh-1-trieu-do.UonkFbSX?ver=2" target="_blank" class="movie-card block">
+  <img src="https://i.pinimg.com/736x/67/13/df/6713df0bcc3cc5159379f9f97ac0fa4a.jpg" alt="Ngôi sao xanh" class="w-full">
+  <div class="p-2 text-center">
+    <h2 class="text-lg font-semibold">Movie 27 : Ngôi sao 5 cánh 1 triệu đô
+    </h2>
+    <p class="text-sm text-gray-400">Năm: 2021</p>
+</div>
+</a>
+<a href="https://1024terabox.com/s/16ZfbQjDWHWPXg4y7SgRTXw" target="_blank" class="movie-card block">
+  <img src="https://i.pinimg.com/736x/57/4a/21/574a218dc5e9c326f6634737bccfd477.jpg" alt="Ngôi sao xanh" class="w-full">
+  <div class="p-2 text-center">
+    <h2 class="text-lg font-semibold">Movie 28: Dư Ảnh Của Độc Nhãn </h2>
+    <p class="text-sm text-gray-400">Năm: 2021</p>
+</main>
 </body>
 </html>
